@@ -1,0 +1,90 @@
+body {
+    background-color: #1b1f27;  
+    color: white;
+    overflow: hidden;
+    
+}
+
+h1 {
+    display: flex;
+     font-size: 55px;
+     justify-content: center;
+     text-align: center;
+     color: white;
+     
+}
+
+
+
+section.area-login{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+div.login{
+    background-color: #181920;
+    width: 455px;
+    height: 320px;
+    padding: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1100px;
+}
+
+div.login form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+div.login input{
+    margin-top: 10px;
+    background-color: #252a34;
+    border-radius: 7px;
+    border:none;
+    height: 45px;
+    outline: none;
+    color: white;
+    padding-left: 10px;
+       }
+
+div.login input:first-child{
+    margin-top: 0;
+}
+
+div.login input::placeholder{
+    color: white;
+    font-size: 14px;
+    
+}
+
+
+div.login input[type="submit"]{
+    display: block;
+    background-color: #252b25;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+div.login input[type="submit"]:hover{
+    background-color: white;
+
+    
+}
+
+p{
+    color: #cbd0f7;
+}
+
+a{
+    color: #5568fe;
+    text-decoration: none;
+    margin-left: 10px;
+}
